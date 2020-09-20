@@ -76,4 +76,9 @@ The git pull command is a combination of git fetch which fetches the recent comm
 
 ![PullImg1](images/Picture15.png) ![PullImg2](images/Picture16.png)
 
+### Master Branch
+
+A branch in Git is simply a lightweight movable pointer to one of the commits. 
+The default branch name in Git is master. As you start making commits, you’re given a master branch that points to the last commit you made. 
+Every time you commit, the master branch pointer moves forward automatically.
 
