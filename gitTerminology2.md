@@ -65,3 +65,15 @@ Everything is in sync now.
 
 ![PushImg1](images/Picture13.png) ![PushImg2](images/Picture14.png)
 
+### PULL 
+If you make a change in a repository, GIT PULL can allow others to view the changes. 
+It is used to acknowledge the change that you've made to the repository that you're working on. Or also called a target repository.
+The simple command to PULL from a branch is:
+
+    git pull 'remote_name' 'branch_name'
+    
+The git pull command is a combination of git fetch which fetches the recent commits in the local repository and git merge, which will merge the branch from a remote to a local branch also 'remote_name' is the repository name and 'branch_name' is the name of the specific branch.
+
+![PullImg1](images/Picture15.png) ![PullImg2](images/Picture16.png)
+
+
