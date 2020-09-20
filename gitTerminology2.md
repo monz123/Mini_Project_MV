@@ -54,3 +54,14 @@ To checkout existing branch, remote branch:
     
 ![CheckoutImg1](images/Picture11.png) ![CheckoutImg2](images/Picture12.png)
 
+### Push
+The git push command is used to transfer or push the commit, which is made on a local branch in your computer to a remote repository like GitHub. 
+The command used for pushing to GitHub is given below.
+
+        git push 'remote_name' 'branch_name'
+        
+In the diagram given below, the remote received commit C2, the branch master on the remote was updated to point at C2, and our own reflection of the remote (o/master) was updated as well. 
+Everything is in sync now.
+
+![PushImg1](images/Picture13.png) ![PushImg2](images/Picture14.png)
+
