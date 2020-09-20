@@ -114,8 +114,8 @@ Invoking this command will merge the specified branch feature into the current b
 
 **Note:**
 All of the commands presented above merge into the current branch. The current branch will be updated to reflect the merge, but the target branch will be completely unaffected. Again, this means that git merge is often used in conjunction with git checkout for selecting the current branch and git branch -d for deleting the obsolete target branch.
-
-    -------: [**Back to Home Page** :houses: ](/README.md)
+| - | ----: |
+|         |    [**Back to Home Page** :houses: ](/README.md) |
 
 
 
