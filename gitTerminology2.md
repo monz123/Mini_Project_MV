@@ -65,6 +65,7 @@ Everything is in sync now.
 
 ![PushImg1](images/Picture13.png) ![PushImg2](images/Picture14.png)
 
+
 ### PULL 
 If you make a change in a repository, GIT PULL can allow others to view the changes. 
 It is used to acknowledge the change that you've made to the repository that you're working on. Or also called a target repository.
@@ -81,4 +82,5 @@ The git pull command is a combination of git fetch which fetches the recent comm
 A branch in Git is simply a lightweight movable pointer to one of the commits. 
 The default branch name in Git is master. As you start making commits, you’re given a master branch that points to the last commit you made. 
 Every time you commit, the master branch pointer moves forward automatically.
+
 
