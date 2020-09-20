@@ -80,12 +80,12 @@ The diagram above visualizes a repository with two isolated lines of development
 
 ![BranchingImg3](images/Picture7.png)
 
-Creating remote branches
+#### Creating remote branches
 
     git remote add new-remote-repo https://bitbucket.com/user/repo.git # Add remote repo to local repo config 
     $ git push crazy-experiment~ # pushes the crazy-experiment branch to new-remote-repo
 
-Deleting Branches
+#### Deleting Branches
 
     git branch -d crazy-experiment
 
