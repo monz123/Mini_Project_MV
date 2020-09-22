@@ -6,19 +6,19 @@ It has pulled in a great deal of consideration since it is very appropriate to c
 
 #### Key Benefits
 
-#####Parallel Development
+##### Parallel Development
 
 One of the best things about GitFlow is that it supports parallel development by isolating new development from finished work.
 
-#####Collaboration
+##### Collaboration
 
 It makes easier for two or more developers to integrate on the same feature because each feature branch is a sandbox the only changes are the changes necessary to get the new feature working.
 
-#####Release Staging Area
+##### Release Staging Area
 
 As new improvement is finished, it gets merged again into the develop branch, which is the staging for all finished highlights that haven't yet been delivered. So when the following release is expand from create, it will naturally contain the entirety of the new stuff that has been done.
 
-#####Support for Emergency Fixes
+##### Support for Emergency Fixes
 
 GitFlow supports hotfix branches which you can use to make an emergency change, where the hotfix will only contain the emergency fixes.
 
