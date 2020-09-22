@@ -22,3 +22,19 @@
  Note that this will have no effect on the actual remote repository (i.e. the repository itself is not removed / deleted / etc.).
  
     Example: git remove test 
+    
+ ### Status
+ Use the git status command, to check the current state of the repository.
+ Example:
+ 
+     git status
+ 
+ Result:
+ 
+     $ git status
+     On branch master
+     nothing to commit (working directory clean)
+     
+ The command checks the status and reports that there’s nothing to commit, meaning the repository stores the current state of the working directory, and there are no changes to record.
+ We use the git status command to keep monitoring the states of both the working directory and the repository.
+
