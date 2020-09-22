@@ -12,13 +12,13 @@ A list of the changes done by each of us is stated below follows:
 
 
 #### Vivek:
--[x]  Git Terminologies - Checkout, Push, Pull, Status, Master Branch, Remote Add/Remove/Show.
+- [x] Git Terminologies - Checkout, Push, Pull, Status, Master Branch, Remote Add/Remove/Show.
 
--[x]  Git Workflow.
+- [x] Git Workflow.
 
--[x]  Creation of .md files.
+- [x] Creation of .md files.
 
--[x]  Adding Home button to the end of every page.
+- [x] Adding Home button to the end of every page.
 
 To see all the commits, you can **[Click Here](https://github.com/monz123/Mini_Project_MV/commits/master)**
 
