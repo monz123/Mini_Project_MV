@@ -37,4 +37,23 @@
      
  The command checks the status and reports that there’s nothing to commit, meaning the repository stores the current state of the working directory, and there are no changes to record.
  We use the git status command to keep monitoring the states of both the working directory and the repository.
+ 
+ ### Checkout
+ In Git version control, the git checkout command is used to check out of an existing branch and view another branch of code.  
+ Checkout is essential for working on a new branch, existing branch, or remote branch. 
+ Checkout in git operates on files, commits, and branches.
+ Example:
+ 
+ To checkout with new branch:
+ 
+     git checkout -b branch_name
+     
+ To checkout existing branch, remote branch:
+ 
+     git checkout branch_name
+     
+ ![CheckoutImg1](images/Picture11.jpg)
+ 
+ ![CheckoutImg2](images/Picture12.jpg)
+
 
