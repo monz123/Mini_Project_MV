@@ -69,12 +69,12 @@ iii) Submit a pull request to the project owner.
 ### Branch
 Branching is a feature available in most modern version control systems. Git branches are effectively a pointer to a snapshot of your changes. The "branch" command helps you create, delete, and list branches.
 
-![BranchingImg1](images/Picture5.png)
+![BranchingImg1](images/Picture5.png =250x100)
 
 The diagram above visualizes a repository with two isolated lines of development, one for a little feature, and one for a longer-running feature. By developing them in branches, it’s not only possible to work on both of them in parallel, but it also keeps the main master branch free from questionable code.
 #### To create a branch
 
-![BranchingImg2](images/Picture6.png)
+![BranchingImg2](images/Picture6.png) { height="36px" width="36px" }
 
     git branch crazy-experiment
 
@@ -115,7 +115,9 @@ Invoking this command will merge the specified branch feature into the current b
 **Note:**
 All of the commands presented above merge into the current branch. The current branch will be updated to reflect the merge, but the target branch will be completely unaffected. Again, this means that git merge is often used in conjunction with git checkout for selecting the current branch and git branch -d for deleting the obsolete target branch.
 
+
 [**Back to Home Page** :houses: ](/README.md)
+
 
 
 
