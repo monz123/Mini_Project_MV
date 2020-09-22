@@ -52,7 +52,9 @@ To checkout existing branch, remote branch:
 
     git checkout branch_name
     
-![CheckoutImg1](images/Picture11.png) ![CheckoutImg2](images/Picture12.png)
+![CheckoutImg1](images/Picture11.jpg)  
+
+![CheckoutImg2](images/Picture12.jpg)
 
 ### Push
 The git push command is used to transfer or push the commit, which is made on a local branch in your computer to a remote repository like GitHub. 
@@ -63,7 +65,9 @@ The command used for pushing to GitHub is given below.
 In the diagram given below, the remote received commit C2, the branch master on the remote was updated to point at C2, and our own reflection of the remote (o/master) was updated as well. 
 Everything is in sync now.
 
-![PushImg1](images/Picture13.png) ![PushImg2](images/Picture14.png)
+![PushImg1](images/Picture13.jpg)
+ 
+![PushImg2](images/Picture14.jpg)
 
 
 ### PULL 
@@ -75,7 +79,9 @@ The simple command to PULL from a branch is:
     
 The git pull command is a combination of git fetch which fetches the recent commits in the local repository and git merge, which will merge the branch from a remote to a local branch also 'remote_name' is the repository name and 'branch_name' is the name of the specific branch.
 
-![PullImg1](images/Picture15.png) ![PullImg2](images/Picture16.png)
+![PullImg1](images/Picture15.jpg) 
+
+![PullImg2](images/Picture16.jpg)
 
 ### Master Branch
 
