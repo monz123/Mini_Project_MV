@@ -53,7 +53,7 @@ After the clone, a plain git fetch without arguments will update all the remote-
     git clone (repository URL) 
 
 
-### Fork
+### Fork(#fork)
 A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
 For example, you can use forks to propose changes related to fixing a bug. Rather than logging an issue for a bug you've found, you can do the following:
 
@@ -69,7 +69,7 @@ iii) Submit a pull request to the project owner.
 ### Branch
 Branching is a feature available in most modern version control systems. Git branches are effectively a pointer to a snapshot of your changes. The "branch" command helps you create, delete, and list branches.
 
-![BranchingImg1](images/Picture5.png =250x100)
+![BranchingImg1](images/Picture5.png =30x30)
 
 The diagram above visualizes a repository with two isolated lines of development, one for a little feature, and one for a longer-running feature. By developing them in branches, it’s not only possible to work on both of them in parallel, but it also keeps the main master branch free from questionable code.
 #### To create a branch
