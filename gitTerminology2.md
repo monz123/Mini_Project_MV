@@ -70,7 +70,7 @@ Everything is in sync now.
 ![PushImg2](images/Picture14.jpg)
 
 
-### PULL 
+### PULL
 If you make a change in a repository, GIT PULL can allow others to view the changes. 
 It is used to acknowledge the change that you've made to the repository that you're working on. Or also called a target repository.
 The simple command to PULL from a branch is:

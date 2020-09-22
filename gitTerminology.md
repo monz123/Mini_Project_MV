@@ -54,6 +54,7 @@ After the clone, a plain git fetch without arguments will update all the remote-
 
 
 ### Fork
+
 A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
 For example, you can use forks to propose changes related to fixing a bug. Rather than logging an issue for a bug you've found, you can do the following:
 
@@ -67,14 +68,15 @@ iii) Submit a pull request to the project owner.
 
 
 ### Branch
+
 Branching is a feature available in most modern version control systems. Git branches are effectively a pointer to a snapshot of your changes. The "branch" command helps you create, delete, and list branches.
 
-![BranchingImg1](images/Picture5.png =30x30)
+![BranchingImg1](images/Picture5.png)
 
 The diagram above visualizes a repository with two isolated lines of development, one for a little feature, and one for a longer-running feature. By developing them in branches, it’s not only possible to work on both of them in parallel, but it also keeps the main master branch free from questionable code.
 #### To create a branch
 
-![BranchingImg2](images/Picture6.png) { height="36px" width="36px" }
+![BranchingImg2](images/Picture6.png) 
 
     git branch crazy-experiment
 
@@ -101,7 +103,7 @@ Commits are the core building block units of a Git project timeline. Commits can
  
  In the image above, the current branch is master. Before the command was run, master pointed to ed489. Afterward, a new commit, f0cec, was created, with parent ed489, and then master was moved to the new commit.
  
-### Merge
+### Merge 
 
 The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches. The following examples in this document will focus on this branch merging pattern. In these scenarios, git merge takes two commit pointers, usually the branch tips, and will find a common base commit between them. Once Git finds a common base commit it will create a new "merge commit" that combines the changes of each queued merge commit sequence.
 Say we have a new branch feature that is based off the master branch. We now want to merge this feature branch into master.
