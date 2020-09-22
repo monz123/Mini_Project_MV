@@ -36,3 +36,13 @@ Committing process are done in the staging area on the files which are added to 
 
 
 ![Git Repo Image](images/Picture4.png)
+
+### Clone
+
+This command is used to clone a repository into a new directory. Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository (visible using git branch --remotes), and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.
+
+After the clone, a plain git fetch without arguments will update all the remote-tracking branches, and a git pull without arguments will in addition merge the remote master branch into the current master branch. git clone is used to create a copy of remote repositories. We pass git clone a repository URL.
+
+    Syntax:
+    git clone (repository URL) 
+
