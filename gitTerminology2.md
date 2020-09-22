@@ -81,6 +81,15 @@
  ![PullImg1](images/Picture15.jpg) 
  
  ![PullImg2](images/Picture16.jpg)
+ 
+ ### Master Branch
+ 
+ A branch in Git is simply a lightweight movable pointer to one of the commits. 
+ The default branch name in Git is master. As you start making commits, you’re given a master branch that points to the last commit you made. 
+ Every time you commit, the master branch pointer moves forward automatically.
+ 
+ [**Back to Home Page** :houses: ](/README.md)
+
 
 
 
