@@ -32,3 +32,5 @@ Hotfix branches are used to create emergency fixes:
 ![GitWorking Img5](images/Picture21.png)
 
 They are spread straightforwardly from a tagged release in the master branch, and when completed are converged over into both master and create to ensure that the hotfix isn't incidentally lost when the following customary release happens.
+
+[**Back to Home Page** :houses: ](/README.md)
