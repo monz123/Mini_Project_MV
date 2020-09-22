@@ -6,7 +6,6 @@
     - [Docker](./introToGitCollab.md#docker)
     - [Automated Testing](./introToGitCollab.md#automated-testing)
     - [Continuous Integration](./introToGitCollab.md#continuous-integration)
-    - [Benefits of Collaborating the above technologies](./introToGitCollab.md#advantages)
 * [GitFlow](/gitFlow.md)
 * [Git Terminology - 1](/gitTerminology.md#git-terminologies) 
     - [Repository](/gitTerminology.md#repository)
