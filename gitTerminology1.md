@@ -60,4 +60,33 @@ iii) Submit a pull request to the project owner.
 [Click here to find **Step by Step procedure** to fork a repository.](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 
+### Branch
+
+Branching is a feature available in most modern version control systems. Git branches are effectively a pointer to a snapshot of your changes. The "branch" command helps you create, delete, and list branches.
+
+![BranchingImg1](images/Picture5.png)
+
+The diagram above visualizes a repository with two isolated lines of development, one for a little feature, and one for a longer-running feature. By developing them in branches, it’s not only possible to work on both of them in parallel, but it also keeps the main master branch free from questionable code.
+#### To create a branch
+
+![BranchingImg2](images/Picture6.png) 
+
+    git branch crazy-experiment
+
+![BranchingImg3](images/Picture7.png)
+
+#### Creating remote branches
+
+    git remote add new-remote-repo https://bitbucket.com/user/repo.git # Add remote repo to local repo config 
+    $ git push crazy-experiment~ # pushes the crazy-experiment branch to new-remote-repo
+
+#### Deleting Branches
+
+    git branch -d crazy-experiment
+
+
+
+
+
+
 
