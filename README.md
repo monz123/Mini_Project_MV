@@ -7,3 +7,5 @@
 * [Git Terminology - 2](/gitTerminology2.md)
 * [Sources](/gitSources.md)
 * [ChangeLog](/gitChangelog.md)
+
+[**Back to Home Page** :houses: ](/README.md)
