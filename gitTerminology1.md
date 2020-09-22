@@ -96,6 +96,24 @@ Commits are the core building block units of a Git project timeline. Commits can
  ![CommitImg](images/Picture8.png)
  
  In the image above, the current branch is master. Before the command was run, master pointed to ed489. Afterward, a new commit, f0cec, was created, with parent ed489, and then master was moved to the new commit.
+ 
+ 
+ ### Merge 
+ 
+ The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches. The following examples in this document will focus on this branch merging pattern. In these scenarios, git merge takes two commit pointers, usually the branch tips, and will find a common base commit between them. Once Git finds a common base commit it will create a new "merge commit" that combines the changes of each queued merge commit sequence.
+ Say we have a new branch feature that is based off the master branch. We now want to merge this feature branch into master.
+ 
+ ![MergeImg](images/Picture9.png)
+ 
+ Invoking this command will merge the specified branch feature into the current branch, we'll assume master.
+ 
+ ![MergeImg](images/Picture10.png)
+ 
+ **Note:**
+ All of the commands presented above merge into the current branch. The current branch will be updated to reflect the merge, but the target branch will be completely unaffected. Again, this means that git merge is often used in conjunction with git checkout for selecting the current branch and git branch -d for deleting the obsolete target branch.
+ 
+ 
+ [**Back to Home Page** :houses: ](/README.md)
 
 
 
