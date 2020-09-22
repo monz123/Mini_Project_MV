@@ -83,6 +83,22 @@ The diagram above visualizes a repository with two isolated lines of development
 #### Deleting Branches
 
     git branch -d crazy-experiment
+    
+
+### Commit
+The git commit command captures a snapshot of the project's currently staged changes. 
+Commits are the core building block units of a Git project timeline. Commits can be thought of as snapshots or milestones along the timeline of a Git project. Commits are created with the git commit command to capture the state of a project at that point in time. Git Snapshots are always committed to the local repository. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.
+
+    git commit
+    
+    git commit -m "commit message"
+   
+ ![CommitImg](images/Picture8.png)
+ 
+ In the image above, the current branch is master. Before the command was run, master pointed to ed489. Afterward, a new commit, f0cec, was created, with parent ed489, and then master was moved to the new commit.
+
+
+
 
 
 
